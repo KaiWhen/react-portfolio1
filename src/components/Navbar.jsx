@@ -82,25 +82,24 @@ const Navbar = () => {
             <ul>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="https://www.linkedin.com/in/kevin-wang-1071a4241/">
                         LinkedIn <FaLinkedin size={30}/>
                     </a>
                 </li>
-                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-950'>
+                {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-950'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="">
                         Github <FaGithub size={30}/>
                     </a>
-                </li>
+                </li> */}
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2d947e]'>
-                    <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                    <a onClick={(e) => {window.location.href ='mailto:wangke@tcd.ie';}} className='flex justify-between items-center w-full text-gray-300'>
                         Email <HiOutlineMail size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                     <a className='flex justify-between items-center w-full text-gray-300'
-                    href="/">
+                    href="https://drive.google.com/file/d/1uVCVUf58jqCxf7xVEjLqpdsa3PHLRXq0/view?usp=sharing" target='_blank'>
                         CV <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

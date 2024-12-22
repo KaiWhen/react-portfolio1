@@ -7,7 +7,6 @@ const Home = () => {
   const handleClick = () => setNav(!nav)
   return (
     <div name='home' className='w-full h-screen bg-gray-950'>
-
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <p className='text-green-600'>Hi, my name is</p>

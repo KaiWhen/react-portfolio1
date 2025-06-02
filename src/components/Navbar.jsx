@@ -32,11 +32,11 @@ const Navbar = () => {
             Experience
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to='work' smooth={true} duration={500}>
             Work
           </Link>
-        </li>
+        </li> */}
       </ul>
 
         {/* Hamburger */}
@@ -69,12 +69,12 @@ const Navbar = () => {
             Experience
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        {/* <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Work
           </Link>
-        </li>
+        </li> */}
       </ul>
 
         {/* Social Icons */}

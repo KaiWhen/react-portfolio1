@@ -1,7 +1,7 @@
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
-import Work from "./components/Work";
+// import Work from "./components/Work";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import { Snowfall } from "react-snowfall";
@@ -14,7 +14,7 @@ function App() {
       <Home/>
       <Skills/>
       <Experience/>
-      <Work/>
+      {/* <Work/> */}
       <Footer/>
     </div>
   );
